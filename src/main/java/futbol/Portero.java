@@ -20,9 +20,9 @@ public class Portero extends Futbolista{
 	}
 
 	@Override
-	public int compareTo(Futbolista o) {
+	public int compareTo(Object Futbolista) {
 		// TODO Auto-generated method stub		
-		return (Math.abs(this.golesRecibidos-(((Portero)o).golesRecibidos)));
+		return (Math.abs(this.golesRecibidos-(((Portero)Futbolista).golesRecibidos)));
 	}
 
 	@Override

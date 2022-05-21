@@ -22,9 +22,9 @@ public class Jugador extends Futbolista{
 	}
 
 	@Override
-	public int compareTo(Futbolista o) {
+	public int compareTo(Object Futbolista) {
 		// TODO Auto-generated method stub
-		return (Math.abs(this.getEdad()-o.getEdad()));
+		return (Math.abs(this.getEdad()-((Jugador)Futbolista).getEdad()));
 	}
 
 	@Override
