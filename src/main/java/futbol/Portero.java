@@ -33,7 +33,7 @@ public class Portero extends Futbolista{
 
 	@Override
 	public String toString() {
-		return "El futbolista " + this.getNombre() + " tiene" + this.getEdad()  + ", y juega de "+ this.getPosicion() + " con el dorsal "+ this.dorsal+ ". Le han marcado "+ golesRecibidos;
+		return "El futbolista " + this.getNombre() + " tiene " + this.getEdad()  + ", y juega de "+ this.getPosicion() + " con el dorsal "+ this.dorsal+ ". Le han marcado "+ golesRecibidos;
 		//"El futbolista Santiago tiene 23, y juega de Portero con el dorsal 8. Le han marcado 6"
 	}
 
